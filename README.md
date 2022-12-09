@@ -11,11 +11,11 @@ It has two pages:
    ⋅⋅* In case the user is the owner, clicking on an NFT box would display a modal to change the sale price or cancel the listing.
 
 #### 2. Sell NFT:
-   ⋅⋅⋅ On this page the user can put up for sale your NFT's and withdraw the proceeds from previous NFT sales.
-   ⋅⋅⋅ To put for sale an NFT the user has to introduce the NFT contract address, the token ID he owns and the desired sale price and click submit.
-   ⋅⋅ ⋅After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing, and display it on the Home page.
+      -On this page the user can put up for sale your NFT's and withdraw the proceeds from previous NFT sales.
+      -To put for sale an NFT the user has to introduce the NFT contract address, the token ID he owns and the desired sale price and click submit.
+      -After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing, and display it on the Home page.
 
-    ⋅⋅⋅ Once the NFT has been sold, the user can withdraw them clicking on the box that displays the proceeds.
+      Once the NFT has been sold, the user can withdraw them clicking on the box that displays the proceeds.
 
 ### The Dapp is composed by three main components:
 
