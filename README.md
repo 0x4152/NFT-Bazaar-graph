@@ -11,9 +11,9 @@
    + In case the user is the owner, clicking on an NFT box would display a modal to change the sale price or cancel the listing.
 
 #### 2. Sell NFT:
-  ⋅⋅* On this page the user can put up for sale your NFT's and withdraw the proceeds from previous NFT sales.
-  ⋅⋅* To put for sale an NFT the user has to introduce the NFT contract address, the token ID he owns and the desired sale price and click submit.
-  ⋅⋅* After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing, and display it on the Home page.
+  On this page the user can put up for sale your NFT's and withdraw the proceeds from previous NFT sales.
+  To put for sale an NFT the user has to introduce the NFT contract address, the token ID he owns and the desired sale price and click submit.
+  After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing, and display it on the Home page.
 
    Once the NFT has been sold, the user can withdraw them clicking on the box that displays the proceeds.
 
@@ -23,8 +23,8 @@
 
 2. The **smart contracts** that are uploaded on the Göerli testnet, which mainly manipulates the state of two mappings:
 
-    ⋅⋅* The `s_proceeds` mapping, which links **users** with their **balances to be withdrawn**.
-    ⋅⋅* The `s_listings` mapping, which links the **NFT token address** to the **token ID** to the **owner** and **sale price**.
+   + The `s_proceeds` mapping, which links **users** with their **balances to be withdrawn**.
+   + The `s_listings` mapping, which links the **NFT token address** to the **token ID** to the **owner** and **sale price**.
 
     To manipulate the state the contract uses the functions `listItem`, `buyItem`, `cancelListing`, `updateListing` and `withdrawProceeds`.
 
