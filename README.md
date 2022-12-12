@@ -1,12 +1,12 @@
 # NFT Bazaar:
 
-![This is an image](./img/BUY.PNG)
-
 ##### NFT Bazaar is a Dapp that permits the user **buy** and **sell** NFT's through a smart contract deployed on the **Göerli testnet**.
 
 **It has two pages:**
 
 #### 1. Buy:
+
+![This is an image](./img/BUY.PNG)
 
 On this page the user can see recently listed NFT's, with NFT's image, description, name, current owner and the sale price.
 The Dapp detects if the user is the owner of an NFT:
@@ -14,13 +14,22 @@ The Dapp detects if the user is the owner of an NFT:
 - In case the user isn't the owner, cliking on a NFT box would initialize a transaction with your provider to buy the NFT at the market price.
 - In case the user is the owner, clicking on an NFT box would display a modal to change the sale price or cancel the listing.
 
-#### 2. Sell NFT:
+#### 2. Sell:
 
-On this page the user can put up for sale your NFT's and withdraw the proceeds from previous NFT sales.
-To put for sale an NFT the user has to introduce the NFT contract address, the token ID he owns and the desired sale price and click submit.
-After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing, and display it on the Home page.
+![This is an image](./img/sell1.PNG)
 
-Once the NFT has been sold, the user can withdraw them clicking on the box that displays the proceeds.
+On this page the user can put up for sale your NFT's.
+To put for sale an NFT the user has to introduce the NFT contract address, the token ID the user owns and the desired sale price and click submit.
+After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing preview to let the user confirm the sale details are correct.
+Clicking on the preview will execute a transaction that will list the NFT on the market contract, and after block confirmation it will be displayed on the sell page.
+
+![This is an image](./img/sell2.PNG)
+
+#### 2. Withdraw proceeds:
+
+![This is an image](./img/withdraw.PNG)
+
+The user can collect the proceeds from the NFT sales on this page. It displays the proceeds the user is elegible to collect, clicking the card will execute the withdraw function from the NFT Market contract.
 
 ### The Dapp is composed by three main components:
 
