@@ -10,8 +10,8 @@
 This page is used to buy, modify listings and cancel listings. 
 The Dapp detects if the user is the owner of an NFT:
 
-- In case the user isn't the owner, cliking on a NFT box would initialize a transaction with your provider to buy the NFT at the market price.
-- In case the user is the owner, clicking on an NFT box would display a modal to change the sale price or cancel the listing.
+- If the user isn't the owner, cliking on a NFT box would initialize a transaction with your provider to buy the NFT at the market price.
+- If the user is the owner, clicking on an NFT box would display a modal to change the sale price or cancel the listing.
 
 #### 2. Sell:
 
