@@ -1,4 +1,4 @@
-# [NFT Bazaar:](nft-bazaar-8pcfut2h7-0x4152.vercel.app)
+# [NFT Bazaar:](https://nft-bazaar-one.vercel.app/)
 
 ##### NFT Bazaar is a Dapp that permits the user **buy** and **sell** NFT's through a smart contract deployed on the **Göerli testnet**.
 
