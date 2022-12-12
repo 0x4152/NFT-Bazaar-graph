@@ -17,13 +17,13 @@ The Dapp detects if the user is the owner of an NFT:
 
 ![This is an image](./img/sell1.PNG)
 
-To put for sale an NFT the user has to introduce the NFT contract address, the token ID the user owns and the desired sale price and then click submit.
+To put up for sale an NFT the user has to introduce the NFT contract address, the token ID the user owns and the desired sale price and then click submit.
 After approving the NFTMarket on the NFT's contract, the NFTMarket will create a listing preview to let the user confirm the sale details are correct.
 Clicking on the preview will execute a transaction that will list the NFT on the market contract, and after block confirmation it will be displayed on the sell page.
 
 ![This is an image](./img/sell2.PNG)
 
-#### 2. Withdraw proceeds:
+#### 3. Withdraw proceeds:
 
 ![This is an image](./img/withdraw.PNG)
 
